@@ -54,3 +54,5 @@ git push -u origin master
 To remove the origin
 
 git remote remove origin
+
+git pull origin master
