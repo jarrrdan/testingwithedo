@@ -1,0 +1,56 @@
+
+Git: version control system used for tracing changes in source code during development
+
+Gihub: web-based hosting service for your git repositories
+
+need github account credentials to connect git to github
+
+To set git identity on local account
+
+git config --global user.name "your username"
+git config --global user.email "mail@example.com"
+
+To create a repository:
+
+cd folder
+git init
+
+To add repository documentation:
+
+echo "title_in_markdown_syntax" > README.md
+
+To add files and folders to the repository:
+
+git add folder1
+git add file1
+...
+...
+
+To record changes:
+
+git commit -m "First commit"
+
+To check status of version control:
+
+git status
+
+To check differences b/w file in staging (added files) and files in repository (committed):
+
+(files might need to be added each time they're committed? idk?)
+
+git diff
+
+Branching: allows working on new features in parallel
+
+
+Push local project to GitHub:
+
+git remote add origin https://github.com/usermae/project.git
+
+To push local repo to GitHub:
+
+git push -u origin master
+
+To remove the origin
+
+git remote remove origin
